@@ -3,7 +3,7 @@
 Selamat datang di repositori **Mini-Project-JavaScript**!  
 Kumpulan proyek kecil berbasis JavaScript untuk latihan, eksplorasi DOM, dan membangun portofolio front-end.
 
-## 📁 Daftar Proyek
+## 📁 List Project
 
 Beberapa mini project yang tersedia di dalam repositori ini:
 
