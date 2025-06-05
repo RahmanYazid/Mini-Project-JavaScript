@@ -22,7 +22,7 @@ Beberapa mini project yang tersedia di dalam repositori ini:
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
-
+ 
 ---
 
 ## ▶️ Cara Menjalankan
