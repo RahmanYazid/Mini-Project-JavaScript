@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Biodata Card</h1>
+
+        <label>Nama Depan:</label>
+        <input type="text" id="namaDepan" placeholder="Masukkan nama depan" />
+
+        <label>Nama Belakang:</label>
+        <input
+          type="text"
+          id="namaBelakang"
+          placeholder="Masukkan nama belakang"
+        />
+
+        <label>Tahun Lahir:</label>
+        <input
+          type="number"
+          id="tahunLahir"
+          placeholder="Contoh: 1990"
+          min="1900"
+          max="2025"
+        />
+
+        <label>Hobi:</label>
+        <input type="text" id="hobi" placeholder="Masukkan hobi favorit" />
+        <br />
+
+        <button id="submit">Submit</button>
+        <div class="output1">
+          <div class="output-child" id="output"></div>
+        </div>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
