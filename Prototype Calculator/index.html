@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <body>
+      <div class="container">
+        <h1>Calculator</h1>
+
+        <input id="inputPertama" type="number" placeholder="masukan angka..." />
+        <input id="inputKedua" type="number" placeholder="masukan angka..." />
+        <br />
+        <br /><br />
+        <button onclick="hitung('+')">+</button>
+        <button onclick="hitung('-')">-</button>
+        <button onclick="hitung('*')">*</button>
+        <button onclick="hitung('/')">/</button>
+        <button onclick="myReset()">reset</button>
+
+        <div class="hasil1">
+          <p id="myHasil"></p>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+    </body>
+  </body>
+</html>

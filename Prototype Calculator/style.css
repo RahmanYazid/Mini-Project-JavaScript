@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  height: 210px;
+}
