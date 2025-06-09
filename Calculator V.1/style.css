@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input {
+  width: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: solid 2px #ddd;
+}
+button {
+  background-color: #06d001;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #059212;
+}
+.toggle-button {
+  background-color: hwb(0 90% 8%);
+  color: #555;
+  transition: all 0.3s ease;
+}
+.darkmode .toggle-button {
+  background-color: #555;
+  color: #ddd;
+}
+.toggle-button:hover {
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+#myHasil {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* dark mode style */
+#themeToggle {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 50px;
+  position: fixed;
+}
+#themeToggle span:last-child {
+  display: none;
+}
+/* dark mode */
+.darkmode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.darkmode input {
+  background-color: #333;
+  color: white;
+  border-color: #555;
+}
+
+.darkmode #myHasil {
+  background-color: #333;
+  border-color: #555;
+  color: white;
+}
+
+.darkmode #themeToggle span:first-child {
+  display: none;
+}
+
+.darkmode #themeToggle span:last-child {
+  display: block;
+}

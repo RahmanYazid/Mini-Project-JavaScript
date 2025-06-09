@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- darkmode toggle -->
+    <button class="toggle-button" id="themeToggle" onclick="darkMode()">
+      <span class="material-symbols-outlined"> dark_mode </span>
+      <span class="material-symbols-outlined"> light_mode </span>
+    </button>
+
+    <h1>Calculator</h1>
+
+    <input type="number" id="input1" placeholder="masukan angka.." />
+    <input type="number" id="input2" placeholder="masukan angka.." />
+    <br />
+    <button onclick="hitung('+')">+</button>
+    <button onclick="hitung('-')">-</button>
+    <button onclick="hitung('*')">*</button>
+    <button onclick="hitung('/')">/</button>
+    <button onclick="reset()">reset</button>
+
+    <p id="myHasil">Hasil akan muncul di sini</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
