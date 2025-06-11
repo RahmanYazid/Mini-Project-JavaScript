@@ -1,0 +1,58 @@
+/* css reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background-color: #292929;
+}
+
+h1 {
+  color: #d5d5d5;
+}
+.card {
+  background-color: #121212;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card > button {
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin: 0 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #d5d5d5;
+}
+.card > button:hover {
+  cursor: pointer;
+}
+
+.reset1 {
+  background-color: #1e1e1e;
+  color: black;
+  margin: 10px auto;
+  padding: 3px 6px;
+  justify-content: center;
+  max-width: 30%;
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #d5d5d5;
+}
+.reset1:hover {
+  cursor: pointer;
+}
+label {
+  font-size: 24px;
+  color: #d5d5d5;
+}
